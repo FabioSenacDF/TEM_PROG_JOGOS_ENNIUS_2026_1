@@ -5,11 +5,15 @@ import time
 #     time.sleep(1)
     
 somatorio = 0
+media = 0
+quantidade = int(input("Digite quantos numeros quer somar: "))
+# receber a quantidade de numeros digitados antes do loop
 
-for i in range(5):
-    num = float(input("Digite um número: "))
+for i in range(quantidade):
+    num = float(input("Digite o número "+str(i+1)+" : "))
     #somatorio = somatorio + num
     somatorio += num
 
 print("Somatório:",somatorio)
-#printar a media = soma/quantidade
+media = somatorio/quantidade
+print("Média:",media)
