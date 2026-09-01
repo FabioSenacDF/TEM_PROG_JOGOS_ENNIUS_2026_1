@@ -53,7 +53,22 @@
 ###############################################################
 # Substituição de Conteúdo (substring)
 
-texto = """
+# texto = """
+# antigo
+# """
+# print(texto.replace("antigo","novo"))
 
-"""
-print(texto.replace("antigo","novo"))
+###############################################################
+# Verificação de conteúdo
+
+frase = "A IA irá dominar o mundo"
+#print("IA" in frase)         # Verifica se a string contém uma substring
+#print("AI" in frase)
+#print(frase.startswith("A"))  # Verifica se a string inicia com uma substring
+#print(frase.startswith("a"))
+#print(frase.endswith("mundo"))# Verifica se a string termina com uma substring
+#print(frase.endswith("mund"))
+
+print(len(frase))       # Verificar tamanho(conta espaços)
+print(frase.count("o")) # Verifica quantidade de caracteres correspondentes
+print(frase.count("H"))
