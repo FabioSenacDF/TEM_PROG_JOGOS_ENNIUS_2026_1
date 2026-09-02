@@ -103,4 +103,25 @@
 # print(frase.index("bruxo")) # Gera erro
 
 ###############################################################
+# Formatações
+nome = "Helena"
+idade = 22
+altura = 1.67254679
 
+#Concatenações
+print("Olá, meu nome é "+nome+" e tenho "+str(idade)+" anos.")
+print("Olá, meu nome é",nome,"e tenho",idade,"anos.")
+# Formats
+print("Olá, meu nome é {} e tenho {} anos.".format(nome,idade))
+print("Olá, meu nome é {0} e tenho {1} anos.".format(nome,idade))
+print("Olá, meu nome é {1} e tenho {0} anos.".format(nome,idade))
+# f String
+print(f"Olá, meu nome é {nome} e tenho {idade} anos.")
+
+# Formatação de float
+print(f"{nome} tem {altura:.2f} metros.") # mostra 2 casa decimais
+
+# Biblioteca Matemática
+import math
+print(math.ceil(altura))    # Arredonda para cima
+print(math.floor(altura))   # Arredonda para baixo
