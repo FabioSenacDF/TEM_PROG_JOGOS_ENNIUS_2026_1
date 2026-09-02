@@ -61,7 +61,7 @@
 ###############################################################
 # Verificação de conteúdo
 
-frase = "A IA irá dominar o mundo"
+#frase = "A IA irá dominar o mundo"
 #print("IA" in frase)         # Verifica se a string contém uma substring
 #print("AI" in frase)
 #print(frase.startswith("A"))  # Verifica se a string inicia com uma substring
@@ -69,6 +69,38 @@ frase = "A IA irá dominar o mundo"
 #print(frase.endswith("mundo"))# Verifica se a string termina com uma substring
 #print(frase.endswith("mund"))
 
-print(len(frase))       # Verificar tamanho(conta espaços)
-print(frase.count("o")) # Verifica quantidade de caracteres correspondentes
-print(frase.count("H"))
+#print(len(frase))       # Verificar tamanho(conta espaços)
+#print(frase.count("o")) # Verifica quantidade de caracteres correspondentes
+#print(frase.count("H"))
+
+###############################################################
+# Divisão de Strings
+
+# frase = "Aprender Python é legal"
+# # Separa pelo caractere indicado e cria lista (espaço se não for indicado)
+# lista_palavras = frase.split("")
+# print(lista_palavras)
+# print(lista_palavras[1])
+
+# for p in lista_palavras:
+#     print(p)
+
+###############################################################
+# Junção de Strings
+# lista_palavras = ["Minecraft","foi","feito","em","Java"]
+# # Junta elementos de uma lista usando caractere como separador
+# frase_completa = " ".join(lista_palavras)
+# print(frase_completa)
+
+###############################################################
+# Encontrar posição de palavra ou caractere
+
+# frase = "Um mago nunca se atrasa"
+# print(frase.find("mago"))   # Encontra índice da primeira ocorrência
+# print(frase.find("m"))
+# print(frase.find("bruxo"))  # Retorna -1
+# print(frase.index("mago"))  # Encontra índice da primeira ocorrência
+# print(frase.index("bruxo")) # Gera erro
+
+###############################################################
+
